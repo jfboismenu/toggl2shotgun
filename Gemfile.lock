@@ -1,0 +1,28 @@
+GIT
+  remote: https://github.com/awesome-print/awesome_print
+  revision: 551bb9cd306aee74e338c92316c8709ff71fb305
+  specs:
+    awesome_print (1.7.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (0.11.0)
+      multipart-post (>= 1.2, < 3)
+    logger (1.2.8)
+    multipart-post (2.0.0)
+    oj (2.18.2)
+    togglv8 (1.2.1)
+      faraday
+      logger
+      oj
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print!
+  togglv8
+
+BUNDLED WITH
+   1.14.6
