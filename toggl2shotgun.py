@@ -173,7 +173,7 @@ def _main():
         # Show some progress.
         print "   Ticket %s, Task %s %s" % (
             ticket_id,
-            task_name.ljust(40),
+            (task_name or "").ljust(40),
             _to_hours_minutes(total_task_duration)
         )
 
